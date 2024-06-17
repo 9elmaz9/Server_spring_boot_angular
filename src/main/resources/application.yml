@@ -1,16 +1,17 @@
+
 spring:
   application:
-    name: server
+    name: server # Имя вашего приложения
   datasource:
-    url: jdbc:mysql://localhost:3306/serverdb
-    username: boss
-    password: 1111
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/serverdb # URL для подключения к вашей базе данных MySQL
+    username: boss # Имя пользователя для подключения к базе данных
+    password: 1111 # Пароль пользователя для подключения к базе данных
+    driver-class-name: com.mysql.cj.jdbc.Driver # Класс драйвера JDBC для MySQL
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: create # Параметр управления схемой базы данных. Значение 'create' создает новую схему каждый раз при запуске приложения. Внимание: это удаляет все данные в базе данных при каждом запуске. лушче update
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.MySQL8Dialect
-        format_sql: true
-        show_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect # Диалект Hibernate для MySQL 8.0
+        format_sql: true # Форматирует SQL-запросы для удобства чтения в логах
+        show_sql: true # Показывает SQL-запросы в логах

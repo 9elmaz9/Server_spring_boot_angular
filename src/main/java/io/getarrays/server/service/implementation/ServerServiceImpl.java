@@ -78,4 +78,20 @@ public class ServerServiceImpl  implements ServerService {
         serverRepo.deleteById(id);
         return TRUE;
     }
+   //
+   //private String setServerImageUrl() {
+   //    String[] imageNames = { "server1.png", "server2.png", "server3.png", "server4.png" };
+   //    return ServletUriComponentsBuilder.fromCurrentContextPath().path("/server/image/" + imageNames[new Random().nextInt(4)]).toUriString();
+   //}
+
+   //private boolean isReachable(String ipAddress, int port, int timeOut) {
+   //    try {
+   //        try(Socket socket = new Socket()) {
+   //            socket.connect(new InetSocketAddress(ipAddress, port), timeOut);
+   //        }
+   //        return true;
+   //    }catch (IOException exception){
+   //        return false;
+   //    }
+   //}
 }
