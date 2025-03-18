@@ -72,6 +72,3 @@ The application provides several endpoints to manage servers. You can use tools 
 - **Delete Server:** Remove a server from the repository by its ID.
 - **Get Server Image:** Serve server images stored on the file system.
 
-## License
-
-This project is licensed under the MIT License. 
