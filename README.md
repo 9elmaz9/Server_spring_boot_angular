@@ -2,6 +2,22 @@
 
 ![Project Screenshot](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsEaDUbm-9Fn_f1AOKG7MGLkmvk1ShlMn5PywHxFty6y2BPhtUJOgXF3PIlTbj1N6Mh_M&usqp=CAU)
 
+⚡ Server Management Application ⚡
+In modern IT infrastructure, managing servers efficiently is crucial for maintaining performance, reliability, and security. Server Management Application is a lightweight yet powerful solution built with Spring Boot that simplifies server administration by allowing users to add, monitor, update, and remove servers effortlessly.
+
+Whether you're an IT administrator, DevOps engineer, or a software developer, this application provides an intuitive RESTful API to interact with server resources, perform health checks, and keep your infrastructure organized.
+
+🛠 Key Capabilities
+Create and Manage Servers: Store details like IP address, name, memory, type, and status.
+Real-Time Server Health Monitoring: Ping servers and check their availability instantly.
+Organized Data Retrieval: Fetch server details, update configurations, or remove outdated entries.
+Effortless Image Management: Retrieve and display server-related images directly from the file system.
+REST API Integration: Use the provided endpoints for seamless automation and system integration.
+Designed with scalability and simplicity in mind, this project offers a structured API that can be easily extended and integrated into larger infrastructure management solutions.
+
+🚀 Get started today and take control of your servers with ease!
+
+
 This project demonstrates a simple server management application using Spring Boot. The application allows for creating, pinging, listing, retrieving, updating, and deleting servers. It also provides an endpoint to serve server images.
 
 ## Table of Contents
